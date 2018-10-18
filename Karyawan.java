@@ -9,16 +9,20 @@ public class Karyawan{
 	public int getGaji(){
 		return gaji;
 	}
-	public void setNama(){
-
+	public void setNama(String nama){
+		System.out.println("Nama : "+nama);
 	}
-	public String getNama(){
-
+	public void setAlamat(String alamat){
+		System.out.println("Alamat : "+alamat);
 	}
-	public void setAlamat(){
-
+	public void viewKar(){
+		System.out.println(nama);
+		System.out.println(alamat);
+		System.out.println(gaji);	
 	}
-	public String getAlamat(){
-
+	public void setGaji(int gaji, String pesan){
+		this.gaji+=gaji;
+		System.out.println(gaji);
+		System.out.println(pesan);
 	}
 }
