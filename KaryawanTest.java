@@ -11,8 +11,8 @@ public class KaryawanTest{
 	System.out.println("Jabatan Programmer");
 	Programmer pr = new Programmer();
 	pr.setNama("Ical");
-	p.setAlamat("Bogor");
-	p.setGaji(90);
+	pr.setAlamat("Bogor");
+	pr.setGaji(90);
 	System.out.println(" ");
 
 	System.out.println("Jabatan Desainer");
